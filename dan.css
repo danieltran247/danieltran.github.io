@@ -9,10 +9,18 @@
         }
             
 
-#mybanner.jpg {
-        display: flex;
-        justify-content: center;
-}
+ <img src="mybanner.jpg" alt="banner" class="center">
+        .banner {
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        }
+.banner {
+width:100%;
+height:50vh;
+background-image: url(mybanner.jpg);
+background-size: cover;
+background-repeat: no-repeat;
 
 .header {
         display: flex;
