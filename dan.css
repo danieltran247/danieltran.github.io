@@ -9,13 +9,7 @@
         }
             
 
- <img src="mybanner.jpg" alt="banner" class="center">
-        #mybanner.jpg {
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-        }
 #mybanner.jpg {
-        width: 100%;
-        height: 50vh;
+        display: flex;
+        justify-content: center;
 }
